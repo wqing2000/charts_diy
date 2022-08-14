@@ -1,4 +1,4 @@
-# draw_line_chart
+# charts_div
 
 ## 安装项目所有依赖
 `npm install`
