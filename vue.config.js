@@ -5,7 +5,7 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       sass: {
-        // 全局引入变量和 mixin
+        // 全局引入变量
         additionalData: `
           @import "@/assets/scss/variable.scss";
         `,

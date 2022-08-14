@@ -1,5 +1,8 @@
 # charts_diy
 
+## node版本
+v16.15.0 
+
 ## 安装项目所有依赖
 `npm install`
 
@@ -11,4 +14,3 @@
 
 ### Lints and fixes files
 `npm run lint`
-
