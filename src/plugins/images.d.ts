@@ -1,0 +1,1 @@
+declare module "*.jpg" // 让ts识别jpg文件

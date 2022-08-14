@@ -1,6 +1,22 @@
 <template>
-  <router-view />
+  <n-config-provider :locale="zhCN" :date-locale="dateZhCN">
+    <router-view />
+  </n-config-provider>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import { zhCN, dateZhCN } from 'naive-ui'
+
+export default defineComponent({
+  setup() {
+    return {
+      zhCN,
+      dateZhCN
+    }
+  }
+})
+</script>
 
 <style lang="scss">
 #app {
@@ -8,7 +24,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  height: 100%;
 }
 
+.n-config-provider {
+  height: 100%;
+}
 </style>

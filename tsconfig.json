@@ -9,6 +9,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true, // 屏蔽ts 7053报错
     "useDefineForClassFields": true,
     "sourceMap": true,
     "baseUrl": ".",
@@ -23,7 +24,9 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "src/plugins/images.d.ts",
+    "src/assets/*.jpg", "src/constant/componentMap.js", // 让ts支持引入jpg
   ],
   "exclude": ["node_modules"]
 }
