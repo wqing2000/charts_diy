@@ -1,4 +1,4 @@
-# charts_div
+# charts_diy
 
 ## 安装项目所有依赖
 `npm install`
